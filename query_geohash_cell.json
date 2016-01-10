@@ -1,0 +1,18 @@
+{
+  "query": {
+    "filtered": {
+      "query": {
+        "match_all": {}
+      },
+      "filter": {
+        "geohash_cell": {
+          "location": {
+            "lat": 35.443125,
+            "lon": 139.645982
+          },
+          "precision": 3
+        }
+      }
+    }
+  }
+}

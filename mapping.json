@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "media": {
+      "properties": {
+        "location": {
+          "type": "geo_point",
+          "geohash": true,
+          "geohash_prefix": true
+        }
+      }
+    }
+  }
+}

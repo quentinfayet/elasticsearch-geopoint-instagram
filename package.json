@@ -1,0 +1,24 @@
+{
+  "name": "elasticsearch-geopoint-instagram",
+  "version": "1.0.0",
+  "description": "Example of Elasticsearch geopoint usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "start": "node index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quentinfayet/elasticsearch-geopoint-instagram.git"
+  },
+  "author": "Quentin Fayet <fayet.quentin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quentinfayet/elasticsearch-geopoint-instagram/issues"
+  },
+  "homepage": "https://github.com/quentinfayet/elasticsearch-geopoint-instagram",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "elasticsearch": "^10.1.0"
+  }
+}
